@@ -3,7 +3,9 @@
 * Forked from AJP10304 with little alterations.
 * Still unfinished
 * See complete layout [here](http://www.keyboard-layout-editor.com/#/gists/6b6e85da261d4b7a0772c268d0364416)
+* Layout:
 
+![mabuse layout](https://i.imgur.com/Z68z6df.png)
 
 
 **Note:** In the tables below where there are two characters on a key, 
