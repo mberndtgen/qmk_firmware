@@ -1,7 +1,7 @@
 # mabuse Custom Planck Layout
 
 * Forked from AJP10304 with little alterations.
-* Still unfinished
+* Still unfinished. I've swapped z and y (German layout) and made umlauts available in the function layer. 
 * See complete layout [here](http://www.keyboard-layout-editor.com/#/gists/6b6e85da261d4b7a0772c268d0364416)
 * Layout:
 
@@ -19,53 +19,50 @@ Build and burn with `make planck/rev4:mabuse:dfu`
 
 ##### Main Qwerty Layer 
 
-* Tab: when held, operates as shift.
 * Enter: when held, operates as shift.
-* MENU: perform right-click
+* Only Cursor keys <Cursor Down> and <Cursor Right> here
 
 ```
-| Esc  | Q      | W     | E     | R     | T     | Z     | U     | I     | O     | P     | Bksp  |
-| Tab  | A      | S     | D     | F     | G     | H     | J     | K     | L     | ;:    | '"    |
+| Tab  | Q      | W     | E     | R     | T     | Z     | U     | I     | O     | P     | Bksp  |
+| Esc  | A      | S     | D     | F     | G     | H     | J     | K     | L     | ;:    | '"    |
 | Shft | Y      | X     | C     | V     | B     | N     | M     | ,<    | .>    | /?    | Enter |
 | Fn   | Ctrl   | Alt   | OS    | Lower | Space         | Raise | Down  | Right | PgDn  | Del   |
 ```
 ##### Function Layer
 Activated when `fn` held in the above `qwerty` layer.
 
+* Euro sign and German umlauts
+
 ```
-|       | EUR    |       |       |       |       |       | ue    |       | oe    |       |       |
-|       | ae     | ss    |       |       |       |       |       |       |       |       |       |
-| Shift |        |       |       |       |       |       |       |       |       |       |       |
-|       |        |       |       |       |               |       |       |       |       |       |
+|      |   €   |       |       |       |       |       |   ü   |       |       |       |       |
+|      |   ä   |   ß   |       |       |       |       |       |       |   ö   |       |       |
+| Shft |       |       |       |       |       |       |       |       |       |       |       |
+|      |       |       |       |       |               |       |       |       |       |       |
 ```
 
 ##### Lower Layer
 Activated when `Lower` is held in the above `qwerty` layer.
 
-* Numbers are along the top row, their shifted counterparts are on row 2.
-* WrdBks: `backspace` with `ctrl` applied. I.e. delete a word.  
-* WrdDel: `delete` with `ctrl` applied. I.e. forward delete a word.
+* Shifted numbers, _, +, (, ), {, }
 
 ```
-| `     | !      | @     | #     | $     | %     | ^     | &     | *     | (     | )     | Del   |
-| Del   |        |       |       |       |       |       | _     | =     | {     | }     |       |
-| Shift |        |       |       |       |       |       |       |       |       |       |       |
-|       |        |       |       |       | Space         | Pos1  | End   | Home  | End   |       |
+| `    | !     | @     | #     | $     | %     | ^     | &     | *     | (     | )     | Del   |
+| Del  |       |       |       |       |       |       | _     | =     | {     | }     |       |
+| Shft |       |       |       |       |       |       |       |       |       |       |       |
+|      |       |       |       |       | Space         | Pos1  | End   | Home  | End   |       |
 ```
  
  ##### Raise Layer
  Activated when `Raise` is held in the above `qwerty` layer.
  
- * Preferred layer for typing brackets.
- * Allows for cursor navigation to be used solely with the right hand.
- * WRDSEL: Select the word where the cursor is.
- * |< and >|: Apply `ctrl` to `left` and `right` respectively for word 
+ * Mainly numbers and function keys, +, -, <, > and [, ].
+ * <Cursor Up> and <Cursor Left> are available here.
 
 ```
-| ~    | 1      | 2     | 3     | 4     | 5     | 6     | 7     | 8     | 9     | 0     |         |
-|      | F1     | F2    | F3    | F4    | F5    | F6    | -     | +     | [     | ]     | '       |
-|      | F7     | F8    | F9    | F10   | F11   | F12   |       | <     | >     | \     |         |
-|      |        |       |       |       | Space         | Up    | Left  | PgUp  |       |         |
+| ~   | 1     | 2     | 3     | 4     | 5     | 6     | 7     | 8     | 9     | 0     |        |
+|     | F1    | F2    | F3    | F4    | F5    | F6    | -     | +     | [     | ]     | '      |
+|     | F7    | F8    | F9    | F10   | F11   | F12   |       | <     | >     | \     |        |
+|     |       |       |       |       | Space         | Up    | Left  | PgUp  |       |        |
 ```
  
 ##### Lower + Raise
@@ -77,8 +74,8 @@ Activated when `Lower` and `Raise` are held together the above `qwerty` layer.
 * CAPS: Toggle caps lock.
 
 ```
-| ???? | Reset  | Qwerty |       |       |       |       |       |       |       |       | Del     |
-| CAPS |        |        |       |       |       |       | Mute  | Vol+  | Play  |       |         |
-|      |        |        |       |       |       |       | Prev  | Vol-  | Next  |       |         |
-|      |        |        |       |       |               |       |       |       |       |         |
+| ???? |Reset |Qwerty |       |       |       |       |       |       |       |       | Del   |
+| CAPS |      |       |       |       |       |       | Mute  | Vol+  | Play  |       |       |
+|      |      |       |       |       |       |       | Prev  | Vol-  | Next  |       |       |
+|      |      |       |       |       |               |       |       |       |       |       |
 ``` 
