@@ -8,6 +8,8 @@ the second is the output when shift is applied.
 
 **Note:** If you a bit older then you probly think of the Commodore 64 when recognizing only two cursor keys (the others, Up and Left are shifted by Raise). This is intentional. There's no need for four cursor keys.
 
+Build and burn with `make planck/rev4:mabuse:dfu`
+
 ##### Main Qwerty Layer 
 
 * Tab: when held, operates as shift.
@@ -40,7 +42,7 @@ Activated when `Lower` is held in the above `qwerty` layer.
 
 |       |        |       |       |       |       |       |       |       |       |       |       |
 | ----  | :----: | ----: | ----: | ----: | ----: | ----: | ----: | ----: | ----: | ----: | ----: |
-| `     | !      | @     | #     | $     | %     | ^     | &     | *     | (     | )     | Del   |
+| \`    | !      | @     | #     | $     | %     | ^     | &     | *     | (     | )     | Del   |
 | Del   |        |       |       |       |       |       | _     | =     | {     | }     |       |
 | Shift |        |       |       |       |       |       |       |       |       |       |       |
 |       |        |       |       |       | Space |       | Pos1  | End   | Home  | End   |       |
